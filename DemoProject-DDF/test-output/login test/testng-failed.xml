@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login test]">
+  <test name="Test Parameters(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://classic.freecrm.com/"/>
+    <classes>
+      <class name="com.DD.types.TestParameters">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.DD.types.TestParameters -->
+    </classes>
+  </test> <!-- Test Parameters(failed) -->
+</suite> <!-- Failed suite [Login test] -->
